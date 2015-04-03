@@ -16,7 +16,7 @@ This course is currently taught in Japanese.
 
 ### 講義要項 (Syllabus)
 
-シラバスは [こちら (PDF)](syllabus-rm2-spring2015.pdf)。
+シラバスは [こちら (PDF)](syllabus-rm2-spring2015.pdf)（ブラウザ上で文字化けする場合はダウンロードしてください [右上の "Raw" ボタンをクリック]）。
 
 ### 授業のテーマと目標
 
