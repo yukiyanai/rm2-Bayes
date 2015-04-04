@@ -1,6 +1,6 @@
 # Research Methods in Political Science II: Bayesian Data Analysis
 
-### Instructor: Yuki Yanai, Assistant Professor
+### Yuki Yanai, Assistant Professor
 
 ## About
 
