@@ -30,7 +30,18 @@ GitHubでPDFを開くと文字化けするので、PDFはダウンロードし�
 課題は [assignments](assignments) フォルダにある。第WW週の課題は、rm2-hw-WW.pdf である。
 指定された提出期限と提出方法を守ること。
 
+## 関連するウェブサイト
+
+- [担当教員のウェブサイト](http://www.yukiyanai.com)
+- [授業のページ](http://www2.kobe-u.ac.jp/~yyanai/jp/classes/rm2/)
+- [神戸大学法学部・法学研究科](http://www.law.kobe-u.ac.jp/)
+- [神戸大学 Situational Training Programme](http://www.law.kobe-u.ac.jp/STP/)
+- [CRAN](http://cran.r-project.org)
+- [RStudio](http://www.rstudio.com/)
+- [JAGS](http://mcmc-jags.sourceforge.net/)
+- [Stan](http://mc-stan.org)
+
 
 ## License
 
-The contents in this directory is released under the MIT License, see [LICENSE.txt](LICENSE.txt).
+The contents in this directory is released under the MIT License. See [LICENSE.txt](LICENSE.txt).
