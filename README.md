@@ -18,7 +18,7 @@ This course is currently taught in Japanese.
 
 シラバスは [こちら (PDF)](syllabus-rm2-spring2015.pdf)。
 
-GitHubでPDFを開くと文字化けするので、PDFはダウンロードして利用すること。
+GitHubでPDFを開くと文字化けするので、PDFはダウンロードして利用すること（[Raw] ボタンを押すとダウンロードできる）。
 
 ### 授業のテーマと目標
 
