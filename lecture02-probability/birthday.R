@@ -26,12 +26,3 @@ prob_one_match <- function(n) {
     ## the same birthday
     return(1 - prob_no_match(n))
 }
-
-## plot the prob of matching birthday vs. n of people
-n.vec <- 2:365
-probs <- sapply(n.vec, prob_one_match)
-plot(n.vec, probs, type = "l", xlim = c(0, 100),
-     col = "tomato", lwd = 2,
-     xlab = "グループの人数",
-     ylab = "確率",
-     main = "同じ誕生日のペアが少なくとも1組いる確率")
