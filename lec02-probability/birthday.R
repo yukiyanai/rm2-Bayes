@@ -22,7 +22,7 @@ prob_no_match <- function(n){
 
 prob_one_match <- function(n) {
     ## given the number of people n,
-    ## return the prob. of at least one pair hving
+    ## return the prob. of at least one pair having
     ## the same birthday
     return(1 - prob_no_match(n))
 }
