@@ -4,7 +4,7 @@
 ##     probability with examples
 ##
 ## created: 03/20/2015 Yuki Yanai
-## last modified: 04/14/2015 YY
+## last modified: 04/15/2015 YY
 #######################################################
 
 ####
@@ -18,9 +18,9 @@ for (i in seq_along(coin.flip)) {
 }
 ## plot the simulation result
 plot(1:n.flip, prob.h, type = "l",
-     xlab = "試行回数",
-     ylab = "表が出た割合",
-     main = "長期的相対頻度としての確率：コイン投げ")
+     xlab = "trials",
+     ylab = "relative frequency of head",
+     main = "Prob. as long-run relative freq.: coin flipping")
 abline(h = 1/2, lty = "dashed", col = "tomato", lwd = 2)
 
 
@@ -37,9 +37,9 @@ for (i in seq_along(results)) {
 }
 ## plot the simulation result
 plot(1:n, prob, type = "l",
-     xlab = "試行回数",
-     ylab = "6が出た割合",
-     main = "長期的な相対頻度としての確率：サイコロ")
+     xlab = "trials",
+     ylab = "relative frequency of 6",
+     main = "Prob. as long-run relative freq.：dice rolling")
 abline(h = 1/6, lty = "dashed", col = "tomato", lwd = 2)
 
 ## prob of getting 3 or 4 by rolling a 6-face (cube) die
@@ -52,7 +52,7 @@ for (i in seq_along(results)) {
 }
 ## plot the simulation result
 plot(1:n, prob.3or4, type = "l",
-     xlab = "試行回数",
-     ylab = "3または4が出た割合",
-     main = "長期的相対頻度としての確率：サイコロ")
+     xlab = "trials",
+     ylab = "relative frequency of 3 or 4",
+     main = "Prob. as long-run relative freq.: dice rolling")
 abline(h = 1/3, lty = "dashed", col = "tomato", lwd = 2)
