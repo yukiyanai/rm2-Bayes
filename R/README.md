@@ -4,6 +4,8 @@
 
 **Yuki Yanai**, *Assistant Professor, Graduate School of Law*
 
+Email: [yanai@lion.kobe-u.ac.jp](mailto:yanai@lion.kobe-u.ac.jp)
+
 
 ## List of R scripts
 

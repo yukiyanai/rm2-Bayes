@@ -29,6 +29,10 @@ GitHubでPDFを開くと文字化けするので、PDFはダウンロードし�
 課題は [assignmentsフォルダ](assignments) にある。第WW週の課題は、rm2-hw-WW.pdf である。
 指定された提出期限と提出方法を守ること。
 
+## Rコード
+
+授業で使うRコードは [Rフォルダ](R) にある。
+
 ## 関連するウェブサイト
 
 - [担当教員のウェブサイト](http://www.yukiyanai.com)
