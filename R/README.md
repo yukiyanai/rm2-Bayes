@@ -13,3 +13,8 @@ Email: [yanai@lion.kobe-u.ac.jp](mailto:yanai@lion.kobe-u.ac.jp)
 
 - [MontyHall.R](MontyHall.R): Simulates a simplified version of Monty Hall problem
 - [frequentistProb.R](frequentistProb.R): Demonstrates the frequentist definition of probability
+
+### Lecture 3: Single-parameter Models
+
+- [faii-coin.R](fair-coin.R): Simple Bayesian analysis of a single-parameter model
+ 
