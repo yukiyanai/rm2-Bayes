@@ -13,6 +13,7 @@ Email: [yanai@lion.kobe-u.ac.jp](mailto:yanai@lion.kobe-u.ac.jp)
 
 - [MontyHall.R](MontyHall.R): Simulates a simplified version of Monty Hall problem
 - [frequentistProb.R](frequentistProb.R): Demonstrates the frequentist definition of probability
+- [hw02-2.R](hw02-2.R): Sample code for HW02
 
 ### Lecture 3: Single-parameter Models
 
