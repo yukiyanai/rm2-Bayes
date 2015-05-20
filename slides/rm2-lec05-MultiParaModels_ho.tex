@@ -1,0 +1,113 @@
+\documentclass[dvipdfmx,handout]{beamer}
+\usepackage{myteaching}
+
+\usetheme[nonav,simplefoot,jp,nologo]{Kobe}
+\usecolortheme{uriboBlack}
+
+\title{政治学方法論 II}
+\subtitle{第5回：多変量の推定}
+\author{矢内　勇生}
+\institute{法学部・法学研究科}
+\date{2015年5月13日}
+
+\begin{document}
+
+ {%% TITTLE PAGE
+  \setbeamertemplate{footline}{}
+  \frame{\titlepage}
+ }
+
+ \begin{frame}{今日の内容}
+  \tableofcontents
+ \end{frame}
+
+ \section{多変量のベイズ推定}
+ 
+ \subsection{1変量の推定から多変量の推定へ}
+
+ \begin{frame}{1変量の推定}
+  \begin{itemize}
+   \item 推定の対象：$\theta$
+   \item 尤度（サンプリングモデル）：$p(y|\theta)$
+   \item 事前分布：$p(\theta)$
+   \item 事後分布：\pause
+         \[
+          p(\theta | y) \propto p(y | \theta) p(\theta)
+         \]
+  \end{itemize}
+ \end{frame}
+
+ \begin{frame}{多変量の推定：2母数の場合}
+  \begin{itemize}
+   \item 推定の対象：$\bm{\theta} = (\theta_1, \theta_2)$
+   \item 尤度（サンプリングモデル）：$p(y|\bm{\theta})$
+   \item 事前分布：$p(\bm{\theta})$
+   \item 事後分布：\pause
+         \[
+          p(\bm{\theta} | y) \propto p(y | \bm{\theta}) p(\bm{\theta})
+         \]
+         \pause          
+         \[
+          p(\theta_1, \theta_2 | y) \propto p(y | \theta_1, \theta_2) p(\theta_1, \theta_2)
+         \]
+   \item \alert{同時分布 (joint distribution)}を考える
+  \end{itemize}
+ \end{frame}
+
+ \begin{frame}{同時分布：相関がない場合}
+   \centering
+  \includegraphics[scale=0.5]{../teach-bayes-R/contour1.pdf}
+ \end{frame}
+
+ \begin{frame}{同時分布：相関がある場合}
+   \centering
+  \includegraphics[scale=0.5]{../teach-bayes-R/contour2.pdf}
+ \end{frame}
+
+ 
+
+ \begin{frame}{興味の対象となる母数と対象とならない母数}
+  \begin{itemize}
+   \item $\bm{\theta} = (\theta_1, \theta_2)$ のうち、$\theta_1$ のみに
+         興味があるとする
+   \item 例： $y \sim \mathrm{N}(\mu, \sigma^2)$ で、$\mu$ を知りたい
+   \item $\theta_2$：局外（撹乱）母数 (nuisance parameter) と呼ぶ
+   \item 推定の目標：$p(\theta_1 | y)$
+   \item ベイズルール：
+         \[
+          p(\theta_1, \theta_2 | y)\propto p(y | \theta_1, \theta_2) p(\theta_1, \theta_2)
+         \]
+   \item どうする？
+  \end{itemize}
+ \end{frame}
+
+
+ \subsection{局外変数を捨象する}
+ 
+ \begin{frame}{積分する}
+  \begin{itemize}
+   \item $p(\theta_1, \theta_2 | y)$ を得ることはできる
+   \item $p(\theta_1 | y)$ が知りたい
+        \pause
+   \item 積分する (integrate out $\theta_2$)
+        \[
+          p(\theta_1 | y) = \int p(\theta_1, \theta_2 | y) d\theta_2
+        \]
+  \end{itemize}
+ \end{frame}
+
+ \begin{frame}{分解して考える}
+  \begin{itemize}
+   \item 分解してから、積分する
+    \[
+     p(\theta_1 | y) = \int p(\theta_1 | \theta_2, y)p(\theta_2 | y)d\theta_2
+    \]
+   \item 右辺の中身
+   \begin{itemize}
+    \item $p(\theta_1 | \theta_2, y)$：条件付き確率
+    \item $p(\theta_2 | y)$：$\theta_2$ のウェイト
+   \end{itemize}
+  \end{itemize}
+ \end{frame}
+
+\end{document}
