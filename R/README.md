@@ -18,4 +18,9 @@ Email: [yanai@lion.kobe-u.ac.jp](mailto:yanai@lion.kobe-u.ac.jp)
 ### Lecture 3: Single-parameter Models
 
 - [faii-coin.R](fair-coin.R): Simple Bayesian analysis of a single-parameter model
+
+
+### Lecture 7: Multi-parameter Models
+
+- [rm2-bayes-BDA3-ex3.R](rm2-bayes-BDA3-ex3.R): Some solutions to the Exercises in BDA3.
  
